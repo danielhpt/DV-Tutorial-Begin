@@ -4,16 +4,79 @@
     <title>Data Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascripts/charts.js"></script>
     <link rel="stylesheet" href="stylesheets/style.css">
     <script>
-        let onLoad = function () {
+        //##### HANDS-ON!
+        let handsOn = {
             /**
-             * Insert your code here
+             * Load charts
              */
+            init: () => {
+                app.init();
+            },
+            /**
+             * Add data dynamically
+             * @param (string) label The dataset label
+             * @param (number) The dataset value
+             */
+            addDataToBarChart: (label, data) => {
+                //todo
+            },
+            /**
+             * Will update the first dataset label
+             * @param (string) label The dataset label
+             */
+            changeDataSetLabel: (label) => {
+                //todo
+            },
+            /**
+             * Get random data and label from server
+             */
+            getDataFromServerSideForBarChart: () => {
+                //todo
+            },
+            /**
+             * Add slide delay animation
+             */
+            addDelayAnimationToBarChart: () => {
+                //todo
+            },
+            /**
+             * Add progressive line animation
+             */
+            addProgressiveLineToLineChart: () => {
+                //todo
+            },
+            /**
+             * Add onclick listener
+             */
+            getValueFromPieChartOnClick: () => {
+                //todo
+            },
+            /**
+             * Will dynamically smooth the radar chart
+             */
+            smoothRadarChart: () => {
+                //todo
+            },
+            /**
+             * Add second chart on top of the first one
+             */
+            addLinetoBarChart: () => {
+                //todo
+            },
+            /**
+             * Update bar color
+             */
+            setBarColors: () => {
+                //todo
+            }
+
         };
     </script>
 </head>
-<body onload="onLoad()">
+<body onload="handsOn.init()">
 <div class="divTable">
     <div class="divTableBody">
         <div class="divTableRow">
